@@ -1,0 +1,1 @@
+import React from 'react'; import { Box, Typography } from '@mui/material'; export default function CompanyAddress(){ return (<Box sx={{p:2}}><Typography variant='subtitle1'>Head Office</Typography><Typography variant='body2'>Hyderabad, India</Typography><Typography variant='body2' sx={{mt:1}}>Email: info@pts.example</Typography></Box>); }

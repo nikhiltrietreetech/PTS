@@ -1,0 +1,1 @@
+import React from 'react'; import {List,ListItem} from '@mui/material'; const items=['ISO 9001','GST Registered','VMware Partner']; export default function CertificationsList(){ return (<List>{items.map(i=> <ListItem key={i}>{i}</ListItem>)}</List>); }

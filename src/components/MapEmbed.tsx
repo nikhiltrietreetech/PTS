@@ -1,0 +1,16 @@
+import React from "react";
+import { Box } from "@mui/material";
+
+export default function MapEmbed() {
+  return (
+    <Box sx={{ mt: 2 }}>
+      <iframe
+        title="map"
+        width="100%"
+        height="300"
+        src="https://maps.google.com/maps?q=Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        style={{ border: 0 }}
+      />
+    </Box>
+  );
+}

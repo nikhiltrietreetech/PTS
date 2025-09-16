@@ -1,0 +1,1 @@
+import { Typography, Box } from '@mui/material'; export default function SectionTitle({title,subtitle,center=true}){ return (<Box sx={{ textAlign: center? 'center':'left', mb:3 }}><Typography variant='h4' sx={{ fontWeight:800 }}>{title}</Typography>{subtitle && (<Typography variant='body1' sx={{ opacity:0.8, mt:1 }}>{subtitle}</Typography>)}</Box>); }
